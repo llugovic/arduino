@@ -9,7 +9,7 @@ In File->Preferences->Additional Boards Manager URLs enter:
     http://www.nxlab.fer.hr/fpgarduino/package_f32c_core_index.json
 
 Select pull down menu Tools->Board->Board Manager
-and instal FPGArduino (cca 100MB).
+and install FPGArduino (cca 100MB).
 
 Upgrading
 
@@ -24,7 +24,7 @@ Delete packages directory, then remove/install from boards manager.
 
 To upload some bitstreams OpenOCD may complain about
 libusb drivers. libusb is common on linux. 
-To install libusb on windows, easiest way is with
+To install libusb on Windows, easiest way is with
 Zadig http://zadig.akeo.ie Options->List All Devices
 Select usb serial device, select driver WinUSB and click install.
 
